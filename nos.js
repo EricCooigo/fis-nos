@@ -25,6 +25,10 @@ fis.config.merge({
             less: 'css'
         },
         path : [
+			{
+                reg : "README.md",
+                release : false
+            },
             {
                 //一级同名组件，可以引用短路径，比如modules/jquery/juqery.js
                 //直接引用为var $ = require('jquery');
@@ -41,10 +45,6 @@ fis.config.merge({
                 isMod : true,
                 //id是去掉modules和.js后缀中间的部分
                 id : '$1',
-            },
-            {
-                reg : "README.md",
-                release : false
             }
         ]
     },
