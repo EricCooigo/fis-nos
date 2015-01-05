@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../nos.js').cli.run( process.argv ); 

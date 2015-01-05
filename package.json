@@ -1,0 +1,24 @@
+{
+  "name": "nos",
+  "version": "1.0.0",
+  "description": "91 fis",
+  "main": "nos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nos",
+	"91",
+    "fis"
+  ],
+  "author": "eric.zh24 (eric.zh24@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "fis": "^1.8.13",
+    "fis-postprocessor-require-async": "0.0.8",
+    "fis-postpackager-autoload": "0.0.17",
+    "fis-postpackager-simple": "0.0.23",
+    "fis-prepackager-bom": "0.0.2",
+    "fis-lint-jshint": "0.0.10"
+  }
+}
