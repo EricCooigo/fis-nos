@@ -1,8 +1,12 @@
 {
-  "name": "nos",
-  "version": "1.0.0",
-  "description": "nos (91)",
+  "name": "fis-nos",
+  "version": "1.0.1",
+  "description": "基于.NET的前端集成解决方案",
   "main": "nos.js",
+  "bin": {
+    "nos": "bin/nos",
+    "fis-nos": "bin/nos"
+  },
   "dependencies": {
     "fis": "~1.8.13",
     "fis-lint-jshint": "~0.0.10",
@@ -25,7 +29,7 @@
     "fis"
   ],
   "author": "ericcooigo (eric.zh24@gmail.com)",
-  "license": "MIT",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/EricCooigo/fis-nos/issues"
   },
