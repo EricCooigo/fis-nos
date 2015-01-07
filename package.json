@@ -1,6 +1,6 @@
 {
   "name": "fis-nos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于.NET的前端集成解决方案",
   "main": "nos.js",
   "bin": {
