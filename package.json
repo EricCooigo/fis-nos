@@ -1,6 +1,6 @@
 {
   "name": "fis-nos",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "基于.NET的前端集成解决方案",
   "main": "nos.js",
   "bin": {
@@ -8,13 +8,13 @@
     "fis-nos": "bin/nos"
   },
   "dependencies": {
-    "fis": "~1.8.13",
+    "fis": "^1.8.13",
     "fis-lint-jshint": "~0.0.10",
     "fis-postpackager-autoload": "~0.0.17",
     "fis-postpackager-simple": "~0.0.23",
     "fis-postprocessor-require-async": "~0.0.8",
     "fis-prepackager-bom": "~0.0.2",
-	"less": "^2.3.1"
+	"fis-parser-less": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {
