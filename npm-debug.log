@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-13572-VSFV-cCb\\1423123380420-0.5176274806726724\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+13 verbose folder .
+14 info prepublish fis-nos@1.0.6
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Administrator\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+18 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\5a093537-80420-0-5176274806726724-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+22 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+23 verbose tar unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+24 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+25 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package C:\Users\Administrator\AppData\Roaming\npm-cache\5d71c311-80420-0-5176274806726724-package.lock
+26 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+27 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\5a093537-80420-0-5176274806726724-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry nos.js
+34 silly gunzTarPerm modified mode [ 'nos.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry bin/nos
+36 silly gunzTarPerm modified mode [ 'bin/nos', 438, 420 ]
+37 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+38 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+39 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+40 silly lockFile 5a093537-80420-0-5176274806726724-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\tmp.tgz
+41 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\fis-nos\\1.0.6\\package.tgz',
+41 verbose tar pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-13572-VSFV-cCb\\1423123380420-0.5176274806726724\\package' ]
+42 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+43 verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+44 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+45 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package C:\Users\Administrator\AppData\Roaming\npm-cache\5d71c311-80420-0-5176274806726724-package.lock
+46 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+47 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\74137093--cache-fis-nos-1-0-6-package-tgz.lock
+48 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+49 silly lockFile 5d71c311-80420-0-5176274806726724-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-13572-VSFV-cCb\1423123380420-0.5176274806726724\package
+50 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+51 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+52 silly lockFile 55b44b26--npm-cache-fis-nos-1-0-6-package C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+53 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package C:\Users\Administrator\AppData\Roaming\npm-cache\55b44b26--npm-cache-fis-nos-1-0-6-package.lock
+54 silly lockFile 55b44b26--npm-cache-fis-nos-1-0-6-package C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+55 silly lockFile 55b44b26--npm-cache-fis-nos-1-0-6-package C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+56 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+57 silly lockFile ec26dda3--npm-cache-fis-nos-1-0-6-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+58 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package C:\Users\Administrator\AppData\Roaming\npm-cache\ec26dda3--npm-cache-fis-nos-1-0-6-package.lock
+59 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+60 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\74137093--cache-fis-nos-1-0-6-package-tgz.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+66 silly gunzTarPerm extractEntry nos.js
+67 silly gunzTarPerm modified mode [ 'nos.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry bin/nos
+69 silly gunzTarPerm modified mode [ 'bin/nos', 438, 420 ]
+70 silly lockFile ec26dda3--npm-cache-fis-nos-1-0-6-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+71 silly lockFile ec26dda3--npm-cache-fis-nos-1-0-6-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package
+72 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+73 silly lockFile 74137093--cache-fis-nos-1-0-6-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+74 verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz 644
+75 silly chown skipping for windows C:\Users\Administrator\AppData\Roaming\npm-cache\fis-nos\1.0.6\package.tgz
+76 silly lockFile 3a52ce78- .
+77 silly lockFile 3a52ce78- .
+78 silly publish { name: 'fis-nos',
+78 silly publish   version: '1.0.6',
+78 silly publish   description: '基于.NET的前端集成解决方案',
+78 silly publish   main: 'nos.js',
+78 silly publish   bin: { nos: 'bin/nos', 'fis-nos': 'bin/nos' },
+78 silly publish   dependencies:
+78 silly publish    { fis: '~1.8.13',
+78 silly publish      'fis-lint-jshint': '~0.0.10',
+78 silly publish      'fis-postpackager-autoload': '~0.0.17',
+78 silly publish      'fis-postpackager-simple': '~0.0.23',
+78 silly publish      'fis-postprocessor-require-async': '~0.0.8',
+78 silly publish      'fis-prepackager-bom': '~0.0.2',
+78 silly publish      less: '^2.3.1' },
+78 silly publish   devDependencies: {},
+78 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+78 silly publish   repository:
+78 silly publish    { type: 'git',
+78 silly publish      url: 'https://github.com/EricCooigo/fis-nos.git' },
+78 silly publish   keywords: [ 'nos', '91', 'fis' ],
+78 silly publish   author: { name: 'ericcooigo', url: 'eric.zh24@gmail.com' },
+78 silly publish   license: 'BSD',
+78 silly publish   bugs: { url: 'https://github.com/EricCooigo/fis-nos/issues' },
+78 silly publish   homepage: 'https://github.com/EricCooigo/fis-nos',
+78 silly publish   readme: 'fis-nos\r\n=======\r\n\r\n基于.NET的前端集成解决方案\r\n',
+78 silly publish   readmeFilename: 'README.md',
+78 silly publish   _id: 'fis-nos@1.0.6',
+78 silly publish   dist: { shasum: '3a09b3c732310d0992686548f2ae6759f7e11d2b' },
+78 silly publish   _from: '.' }
+79 verbose url raw fis-nos
+80 verbose url resolving [ 'https://registry.npmjs.org/', './fis-nos' ]
+81 verbose url resolved https://registry.npmjs.org/fis-nos
+82 info trying registry request attempt 1 at 16:03:00
+83 http PUT https://registry.npmjs.org/fis-nos
+84 http 400 https://registry.npmjs.org/fis-nos
+85 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+85 verbose bad json <html><head>
+85 verbose bad json <title>400 Bad Request</title>
+85 verbose bad json </head><body>
+85 verbose bad json <h1>Bad Request</h1>
+85 verbose bad json <p>Your browser sent a request that this server could not understand.<br />
+85 verbose bad json </p>
+85 verbose bad json </body></html>
+86 error registry error parsing json
+87 error publish Failed PUT 400
+88 error SyntaxError: Unexpected token <
+88 error <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+88 error <html><head>
+88 error <title>400 Bad Request</title>
+88 error </head><body>
+88 error <h1>Bad Request</h1>
+88 error <p>Your browser sent a request that this server could not understand.<br />
+88 error </p>
+88 error </body></html>
+88 error
+88 error     at Object.parse (native)
+88 error     at RegClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:203:23)
+88 error     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+88 error     at Request.EventEmitter.emit (events.js:98:17)
+88 error     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+88 error     at Request.EventEmitter.emit (events.js:117:20)
+88 error     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+88 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+88 error     at _stream_readable.js:920:16
+88 error     at process._tickCallback (node.js:415:13)
+89 error If you need help, you may report this *entire* log,
+89 error including the npm and node versions, at:
+89 error     <http://github.com/npm/npm/issues>
+90 error System Windows_NT 6.1.7601
+91 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+92 error cwd E:\GitHub\fis-nos
+93 error node -v v0.10.26
+94 error npm -v 1.4.3
+95 error type unexpected_token
+96 verbose exit [ 1, true ]

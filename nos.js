@@ -5,6 +5,9 @@ fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
 
 fis.config.merge({
     modules: {
+	    parser: {
+            less: 'less'
+        },
         postprocessor: {
             js: "jswrapper, require-async",
             aspx: "require-async",
@@ -18,6 +21,9 @@ fis.config.merge({
         }
     },
     roadmap: {
+		ext: {
+            less: 'css'
+        },
         path : [
             {
                 //一级同名组件，可以引用短路径，比如modules/jquery/juqery.js
